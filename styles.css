@@ -40,6 +40,15 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
+/*below html and body styles to prevent extra horizontal scroll*/
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+  position: relative
+}
+
 .maindiv {
 	margin: auto;
 	width: 100%;
