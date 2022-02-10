@@ -77,7 +77,7 @@ for (i = 0; i < coll.length; i++) {
 }
 
 // Sheets API v3 is no V4: https://developers.google.com/sheets/api/guides/migration
-var spreadsheetUrl = 'https://spreadsheets.google.com/feeds/cells/2PACX-1vRv1dkfnXoJ0qQ_EVlLBaMnoezi5kvH9NdqaHC1o7c7T48t92xmvNjlvOATnISwUzrEHagOGHUQyU4C/public/values?alt=json-in-script&callback=doData';
+var spreadsheetUrl = 'https://sheets.googleapis.com/v4/spreadsheets/1HUY4b7Q-eoJgCBa9dKe466Pl_Q_kQO4hk3PuoI_mC4E/values/?alt=json-in-script&callback=doData';
 	  
 // The callback function the JSONP request will execute to load data from API
 function doData(data) {
@@ -611,4 +611,4 @@ $.ajax({
 });
 */
 </script>
-<script src="https://spreadsheets.google.com/feeds/cells/2PACX-1vRv1dkfnXoJ0qQ_EVlLBaMnoezi5kvH9NdqaHC1o7c7T48t92xmvNjlvOATnISwUzrEHagOGHUQyU4C/1/public/values?alt=json-in-script&callback=doData"></script>
+<script src="https://sheets.googleapis.com/v4/spreadsheets/1HUY4b7Q-eoJgCBa9dKe466Pl_Q_kQO4hk3PuoI_mC4E/values?alt=json-in-script&callback=doData"></script>
