@@ -77,6 +77,8 @@ for (i = 0; i < coll.length; i++) {
 }
 
 // Sheets API v3 is no V4: https://developers.google.com/sheets/api/guides/migration
+// Need to fix this, try here: https://stackoverflow.com/questions/66472824/google-sheets-v4-update-effect-json-endpoint-data-shut-down-on-june-8-2021
+// I don't think the below does anything, goes to commented out section, see script line at very bottom with other google sheet address.
 var spreadsheetUrl = 'https://sheets.googleapis.com/v4/spreadsheets/1HUY4b7Q-eoJgCBa9dKe466Pl_Q_kQO4hk3PuoI_mC4E/values?alt=json-in-script&callback=doData';
 	  
 // The callback function the JSONP request will execute to load data from API
